@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Linq;
 using FluentNHibernate.Automapping;
 using FluentNHibernate.Conventions;
 using XAIL.Core;
-using XAIL.Data.NHibernateMaps.Conventions;
 using SharpArch.Core.DomainModel;
 using SharpArch.Data.NHibernate.FluentNHibernate;
 
@@ -17,7 +15,7 @@ namespace XAIL.Data.NHibernateMaps
 
         public AutoPersistenceModel Generate()
         {
-            return AutoMap.AssemblyOf<Class1>(new AutomappingConfiguration())
+            return AutoMap.AssemblyOf<News>(new AutomappingConfiguration())
                 .Conventions.Setup(GetConventions())
                 .IgnoreBase<Entity>()
                 .IgnoreBase(typeof(EntityWithTypedId<>))
