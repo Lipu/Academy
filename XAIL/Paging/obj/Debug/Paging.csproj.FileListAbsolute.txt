@@ -1,0 +1,5 @@
+D:\Workspace\Academy\XAIL\Paging\bin\Debug\Paging.dll
+D:\Workspace\Academy\XAIL\Paging\bin\Debug\Paging.pdb
+D:\Workspace\Academy\XAIL\Paging\obj\Debug\ResolveAssemblyReference.cache
+D:\Workspace\Academy\XAIL\Paging\obj\Debug\Paging.dll
+D:\Workspace\Academy\XAIL\Paging\obj\Debug\Paging.pdb

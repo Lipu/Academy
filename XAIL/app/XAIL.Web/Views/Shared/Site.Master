@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <link href="/Content/Site.css" rel="stylesheet" type="text/css" />
+    <script src="/Scripts/jquery-1.4.4.js" type="text/javascript"></script>
+
+    <% // At bottom to facilitate other JS files to be loaded before page-by-page JS is loaded %>
+    <asp:ContentPlaceHolder ID="HeadContentPlaceHolder" runat="server">
+        <title>Xiamen Academy International Law</title>
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <div class="page">
+        <div id="mainContent">
+            <div class="columnsContainer">
+                <div id="header-wrapper">
+                    <%: Html.Image("~/Content/Images/header.jpg") %>
+                </div>
+                <div id="menu-wrapper">
+                    <%: Html.Image("~/Content/Images/menu_left_border.gif", new { @class = "menu-border" } ) %>
+                    <ul id="main-menu">
+                        <!-- We cannot use Html.ActionLink within a master page to link to a controller while using areas -->
+                        <li class="with-divider"><%= Html.ActionLinkForAreas<HomeController>(c => c.Index(), "Home") %></li>
+                        <li class="with-divider"><%= Html.ActionLinkForAreas<HomeController>(c => c.Index(), "About Us") %></li>
+                        <li class="with-divider"><%= Html.ActionLinkForAreas<NewsController>(c => c.Index(null), "News") %></li>
+                        <li class="with-divider"><%= Html.ActionLinkForAreas<HomeController>(c => c.Index(), "Summer Program") %></li>                        
+                        <li class="with-divider"><%= Html.ActionLinkForAreas<HomeController>(c => c.Index(), "Faculty") %></li>
+                        <li class="with-divider"><%= Html.ActionLinkForAreas<HomeController>(c => c.Index(), "FAQ") %></li>
+                        <li id="last-main-menu-item"><%= Html.ActionLinkForAreas<HomeController>(c => c.Index(), "Contact Us") %></li>
+                    </ul>
+                    <%: Html.Image("~/Content/Images/menu_right_border.gif", new { @class = "menu-border" }) %>
+                </div>
+                <div class="clear"></div>
+                <div id="content-wrapper">
+                    <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server" />
+                </div>
+                <div class="clear"></div>
+            </div><!--/columnsContainer-->
+            <div id="footer-wrapper">
+                <%: Html.Image("~/Content/Images/footer_left_border.gif", new { @class = "menu-border" } ) %>
+                <div id="footer">
+                    <p>Copyright 2005-2011 &copy; by Xiamen Academy of International Law, all rights reserved</p>
+                    <p>Address: Xiamen University Law School, Xiamen, Fujian, P.R. China</p>
+                </div>
+                <%: Html.Image("~/Content/Images/footer_right_border.gif", new { @class = "menu-border" } ) %>
+            </div>
+            <div class="clear"></div>
+        </div><!--/mainContent-->
+    </div><!--/page-->
+</body>
+</html>

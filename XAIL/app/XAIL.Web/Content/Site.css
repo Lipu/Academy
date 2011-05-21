@@ -1,0 +1,478 @@
+﻿/*----------------------------------------------------------
+The base color for this template is #5c87b2. If you'd like
+to use a different color start by replacing all instances of
+#5c87b2 with your new color.
+----------------------------------------------------------*/
+body
+{
+	/*background-color: #5c87b2;*/
+	background-color: #ffffff;
+	font-size: .75em;
+	font-family: Verdana, Helvetica, Sans-Serif;
+	margin: 0;
+	padding: 0;
+	color: #696969;
+}
+
+a:link
+{
+	color: #034af3;
+	text-decoration: underline;
+}
+a:visited
+{
+	color: #505abc;
+}
+a:hover
+{
+	color: #1d60ff;
+	text-decoration: none;
+}
+a:active
+{
+	color: #004e73;
+}
+
+ul
+{
+	line-height: 1.6em;
+}
+
+/* HEADINGS   
+----------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6
+{
+	font-size: 1.5em;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+	font-size: 2em;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+h2
+{
+	border-bottom: 1px solid #5c87b2;
+	padding: 0 0 10px 0;
+}
+h3
+{
+	font-size: 1.2em;
+}
+h4
+{
+	font-size: 1.1em;
+}
+h5, h6
+{
+	font-size: 1em;
+}
+
+/* this rule styles <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+	margin-top: 0;
+}
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+/* you can specify a greater or lesser percentage for the 
+page width. Or, you can specify an exact pixel width. */
+.page
+{
+	width: 1010px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header
+{
+	position: relative;
+	margin-bottom: 0px;
+	color: #000;
+	padding: 0 0px 0 0;
+}
+
+#sharpArchLogo 
+{
+	text-align: right;
+}
+
+p#logo, h1#logo
+{
+	font-weight: bold;
+	font-size: 24px !important;
+	padding: 10px 0;
+	margin: 0;
+	color: #FFF;
+	border: none;
+	line-height: 2em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo a
+{
+	color: #FFF;
+	text-decoration: none;
+	font-size: 32px !important;
+}
+
+#mainContent
+{
+	padding: 0px 30px 15px 30px;
+	margin-bottom: 30px;
+	_height: 1px; /* only IE6 applies CSS properties starting with an underscrore */
+}
+
+.columnsContainer
+{
+	position: relative;
+}
+
+.leftColumn
+{
+	width: 640px;
+	float: left;
+}
+
+.rightColumn
+{
+	float: left;
+	width: 300px;
+	margin-left: 10px;
+}
+
+/* MAIN MENU   
+----------------------------------------------------------*/
+ul#mainMenu
+{
+	border-bottom: 1px #5C87B2 solid;
+	padding: 0 0 2px;
+	position: relative;
+	margin: 0;
+	text-align: right;
+}
+
+ul#mainMenu li
+{
+	display: inline;
+	list-style: none;
+}
+
+ul#mainMenu li a
+{
+	padding: 10px 20px;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 2.8em;
+	background-color: #e8eef4;
+	color: #034af3;
+}
+
+ul#mainMenu li a:hover
+{
+	background-color: #FFF;
+	text-decoration: none;
+}
+
+ul#mainMenu li a:active
+{
+	background-color: #a6e2a6;
+	text-decoration: none;
+}
+
+ul#mainMenu li.selected a
+{
+	background-color: #FFF;
+	color: #000;
+}
+
+/* SIDE COLUMN LINKS & HEADINGS  
+----------------------------------------------------------*/
+.leftColumn,
+.rightColumn
+{
+    margin-bottom: 3px;
+    height: 230px;    
+}
+
+.leftColumn ul
+{
+	margin: 0;
+	padding: 0 0 30px 0;
+}
+
+.leftColumn ul li
+{
+	list-style: none;
+	margin-top: 5px;
+	line-height: normal;
+}
+
+.leftColumn ul li a
+{
+	list-style: none;
+	padding: 5px;
+	border: 1px solid #e8eef4;
+	line-height: normal;
+	display: block;
+	text-decoration: none;
+	background-color: #e8eef4;
+	font-size: .9em;
+	_height: 1px; /* only IE6 applies CSS properties starting with an underscrore */
+}
+
+.leftColumn ul li a:hover
+{
+	text-decoration: none;
+	background-color: #FFF;
+	border-color: #e2e7ed;
+}
+
+.leftColumn ul li a:active
+{
+	text-decoration: none;
+	background-color: #a6e2a6;
+	border-color: #a6e2a6;
+	color: #FFF;
+}
+
+.leftColumn h2
+{
+	font-size: 1.2em;
+	padding: 5px;
+	margin: 0px;
+	border-color: #5C87B2;
+	background-color: #5C87B2;
+	color: #FFF;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+.clear
+{
+	clear: both;
+}
+
+.input-validation-error
+{
+	border: 1px solid #ff0000;
+	background-color: #ffeeee;
+}
+
+/* Menu
+----------------------------------------------------------*/
+
+#menu-wrapper
+{
+    width: 950px;
+}
+
+#main-menu
+{    
+    background: transparent url('Images/menu_bg.gif') repeat-x;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 930px;
+}
+
+#main-menu li
+{
+    list-style-type: none;    
+    height: 35px;
+    display: inline;
+}
+
+li.with-divider
+{
+    background: transparent url('Images/menu_divider.gif') no-repeat right;    
+}
+
+#main-menu li a
+{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    color: #747474;
+    margin: 8px 0px 8px 0px;
+    padding: 0px 32px;
+}
+
+#main-menu li a:hover
+{
+    color: #006666;
+    font-size: bold;
+}
+
+.menu-border
+{
+    float: left;
+}
+
+#last-main-menu-item
+{
+    margin-right: 12px;
+}
+
+/* Announcement
+----------------------------------------------------------*/
+
+#announcement-wrapper
+{
+    margin: 10px 0px;
+}
+
+#slideshow,
+#big-button-list
+{
+    float: left;
+}
+
+#big-button-list ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 6px;
+}
+
+li.big-button a
+{
+    padding: 20px 0px 20px 20px;    
+}
+
+#register_button a
+{
+    padding: 10px 0px 6px 20px;  
+}
+
+li.big-button a,
+#register_button a
+{    
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #353535;
+    background: transparent url('Images/button_bg.jpg') repeat-x;
+    width: 224px;
+}
+
+#big-button-list li a:hover
+{
+    background: transparent url('Images/blue-button.jpg');
+    color: #ffffff;
+}
+
+#summer_program
+{
+    font-size: 12px;
+    text-transform: capitalize;
+    display: block;
+    color: #0b5659;
+    margin-top: 5px;
+}
+
+/* Footer
+----------------------------------------------------------*/
+#footer-wrapper
+{
+    height: 56px;
+}
+
+#footer
+{
+    background: transparent url('Images/footer_bg.jpg') repeat-x;
+    width: 930px;
+    height: 56px;
+    float: left;
+    color: #999;
+	text-align: center;
+	line-height: normal;
+	padding-top: 10px;
+}
+
+#footer p
+{
+    margin: 3px;
+}
+
+/* News
+----------------------------------------------------------*/
+#news-wrapper
+{
+    background-color: #edf3f3;
+    height: 230px;
+}
+
+.news-item
+{
+    width: 300px;
+    float: left;
+    padding: 0px 10px;
+}
+
+.news-item a
+{
+    text-decoration: none;
+}
+
+.news-item h4,
+.news-item p
+{
+    margin: 5px 0px 5px 0px;
+}
+
+.news-img
+{
+    float: left;
+    margin: 5px 5px 5px 0px;
+}
+
+.read-more a
+{
+    float: right;
+    font-size: 10px;
+    margin-top: 3px;      
+}
+
+/* Summer Program List
+----------------------------------------------------------*/
+.summer-program-links
+{
+    float: left;
+    width: 110px;
+    margin: 0;
+    padding: 6px 20px;
+    list-style-image: url('Images/plus-sign.jpg');
+    background-color: #ffffff;
+}
+
+#summer-program-wrapper a
+{
+    color: #737373;
+}
+
+#summer-program-news
+{
+    background-color: #EDF3F3;
+    padding: 0px 10px 5px 10px;
+}
+
+#summer-program-news ul
+{    
+    margin: 0px;
+    padding: 3px 0px 3px 33px;
+    list-style-type: disc;
+}
+
+#summer-program-news a
+{
+    color: #004E73;
+    text-decoration: none;
+}

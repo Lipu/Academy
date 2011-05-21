@@ -1,0 +1,1 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="ViewPage<NewsFormViewModel>" %>  <asp:Content ID="indexContent" ContentPlaceHolderID="MainContentPlaceHolder" runat="server">  <p>Create a news: </p> <% Html.RenderPartial("NewsForm", ViewData); %>  </asp:Content> 
