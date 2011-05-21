@@ -1,3 +1,4 @@
+D:\Workspace\Academy\XAIL\app\XAIL.Data\obj\Debug\ResolveAssemblyReference.cache
 D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\XAIL.Data.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\XAIL.Data.pdb
 D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\FluentNHibernate.dll
@@ -6,10 +7,10 @@ D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\Microsoft.Practices.ServiceLoc
 D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\NHibernate.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\SharpArch.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\XAIL.Core.dll
+D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\NHibernate.Validator.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\Iesi.Collections.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\Antlr3.Runtime.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\Remotion.Data.Linq.dll
-D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\NHibernate.Validator.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\nunit.framework.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\Castle.Windsor.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\Castle.Core.dll
@@ -17,6 +18,9 @@ D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\Microsoft.Web.Mvc.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\Newtonsoft.Json.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\log4net.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\XAIL.Core.pdb
-D:\Workspace\Academy\XAIL\app\XAIL.Data\obj\Debug\ResolveAssemblyReference.cache
 D:\Workspace\Academy\XAIL\app\XAIL.Data\obj\Debug\XAIL.Data.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Data\obj\Debug\XAIL.Data.pdb
+D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\XAIL.ApplicationServices.dll
+D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\Paging.dll
+D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\XAIL.ApplicationServices.pdb
+D:\Workspace\Academy\XAIL\app\XAIL.Data\bin\Debug\Paging.pdb

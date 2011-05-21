@@ -1,3 +1,4 @@
+D:\Workspace\Academy\XAIL\tests\XAIL.Tests\obj\Debug\ResolveAssemblyReference.cache
 D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\Hibernate.cfg.xml
 D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\XAIL.Tests.dll.config
 D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\XAIL.Tests.dll
@@ -21,6 +22,7 @@ D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\XAIL.ApplicationServices.dl
 D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\XAIL.Core.dll
 D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\XAIL.Data.dll
 D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\XAIL.Web.Controllers.dll
+D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\Paging.dll
 D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\Iesi.Collections.dll
 D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\Microsoft.Web.Mvc.dll
 D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\Antlr3.Runtime.dll
@@ -31,8 +33,6 @@ D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\XAIL.ApplicationServices.pd
 D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\XAIL.Web.Controllers.pdb
 D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\XAIL.Core.pdb
 D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\XAIL.Data.pdb
-D:\Workspace\Academy\XAIL\tests\XAIL.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\Paging.pdb
 D:\Workspace\Academy\XAIL\tests\XAIL.Tests\obj\Debug\XAIL.Tests.dll
 D:\Workspace\Academy\XAIL\tests\XAIL.Tests\obj\Debug\XAIL.Tests.pdb
-D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\Paging.dll
-D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\Paging.pdb

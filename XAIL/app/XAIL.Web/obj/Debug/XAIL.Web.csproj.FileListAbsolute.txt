@@ -1,3 +1,4 @@
+D:\Workspace\Academy\XAIL\app\XAIL.Web\obj\Debug\ResolveAssemblyReference.cache
 D:\Workspace\Academy\XAIL\app\XAIL.Web\bin\NHibernate.config
 D:\Workspace\Academy\XAIL\app\XAIL.Web\bin\XAIL.Web.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Web\bin\XAIL.Web.pdb
@@ -16,6 +17,7 @@ D:\Workspace\Academy\XAIL\app\XAIL.Web\bin\Newtonsoft.Json.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Web\bin\NHibernate.ByteCode.Castle.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Web\bin\NHibernate.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Web\bin\NHibernate.Validator.dll
+D:\Workspace\Academy\XAIL\app\XAIL.Web\bin\Paging.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Web\bin\Remotion.Data.Linq.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Web\bin\SharpArch.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Web\bin\XAIL.ApplicationServices.dll
@@ -28,8 +30,6 @@ D:\Workspace\Academy\XAIL\app\XAIL.Web\bin\XAIL.ApplicationServices.pdb
 D:\Workspace\Academy\XAIL\app\XAIL.Web\bin\XAIL.Core.pdb
 D:\Workspace\Academy\XAIL\app\XAIL.Web\bin\XAIL.Data.pdb
 D:\Workspace\Academy\XAIL\app\XAIL.Web\bin\XAIL.Web.Controllers.pdb
-D:\Workspace\Academy\XAIL\app\XAIL.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Workspace\Academy\XAIL\app\XAIL.Web\bin\Paging.pdb
 D:\Workspace\Academy\XAIL\app\XAIL.Web\obj\Debug\XAIL.Web.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Web\obj\Debug\XAIL.Web.pdb
-D:\Workspace\Academy\XAIL\app\XAIL.Web\bin\Paging.dll
-D:\Workspace\Academy\XAIL\app\XAIL.Web\bin\Paging.pdb

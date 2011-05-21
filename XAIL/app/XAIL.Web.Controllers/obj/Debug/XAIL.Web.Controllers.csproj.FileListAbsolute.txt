@@ -1,8 +1,10 @@
+D:\Workspace\Academy\XAIL\app\XAIL.Web.Controllers\obj\Debug\ResolveAssemblyReference.cache
 D:\Workspace\Academy\XAIL\app\XAIL.Web.Controllers\bin\Debug\XAIL.Web.Controllers.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Web.Controllers\bin\Debug\XAIL.Web.Controllers.pdb
 D:\Workspace\Academy\XAIL\app\XAIL.Web.Controllers\bin\Debug\Microsoft.Practices.ServiceLocation.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Web.Controllers\bin\Debug\MvcContrib.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Web.Controllers\bin\Debug\NHibernate.Validator.dll
+D:\Workspace\Academy\XAIL\app\XAIL.Web.Controllers\bin\Debug\Paging.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Web.Controllers\bin\Debug\SharpArch.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Web.Controllers\bin\Debug\XAIL.ApplicationServices.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Web.Controllers\bin\Debug\XAIL.Core.dll
@@ -17,10 +19,8 @@ D:\Workspace\Academy\XAIL\app\XAIL.Web.Controllers\bin\Debug\Newtonsoft.Json.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Web.Controllers\bin\Debug\Iesi.Collections.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Web.Controllers\bin\Debug\Antlr3.Runtime.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Web.Controllers\bin\Debug\Remotion.Data.Linq.dll
+D:\Workspace\Academy\XAIL\app\XAIL.Web.Controllers\bin\Debug\Paging.pdb
 D:\Workspace\Academy\XAIL\app\XAIL.Web.Controllers\bin\Debug\XAIL.Core.pdb
 D:\Workspace\Academy\XAIL\app\XAIL.Web.Controllers\bin\Debug\XAIL.ApplicationServices.pdb
-D:\Workspace\Academy\XAIL\app\XAIL.Web.Controllers\obj\Debug\ResolveAssemblyReference.cache
 D:\Workspace\Academy\XAIL\app\XAIL.Web.Controllers\obj\Debug\XAIL.Web.Controllers.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Web.Controllers\obj\Debug\XAIL.Web.Controllers.pdb
-D:\Workspace\Academy\XAIL\app\XAIL.Web.Controllers\bin\Debug\Paging.dll
-D:\Workspace\Academy\XAIL\app\XAIL.Web.Controllers\bin\Debug\Paging.pdb

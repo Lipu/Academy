@@ -68,6 +68,7 @@
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
     <Compile Include="NHibernateMaps\NewsMapping.cs" />
+    <Compile Include="NHibernateMaps\UsersMapping.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

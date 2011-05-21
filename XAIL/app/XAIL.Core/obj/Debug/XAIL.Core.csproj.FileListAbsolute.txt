@@ -1,3 +1,4 @@
+D:\Workspace\Academy\XAIL\app\XAIL.Core\obj\Debug\ResolveAssemblyReference.cache
 D:\Workspace\Academy\XAIL\app\XAIL.Core\bin\Debug\XAIL.Core.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Core\bin\Debug\XAIL.Core.pdb
 D:\Workspace\Academy\XAIL\app\XAIL.Core\bin\Debug\Microsoft.Practices.ServiceLocation.dll
@@ -14,6 +15,9 @@ D:\Workspace\Academy\XAIL\app\XAIL.Core\bin\Debug\Microsoft.Web.Mvc.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Core\bin\Debug\Iesi.Collections.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Core\bin\Debug\Antlr3.Runtime.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Core\bin\Debug\Remotion.Data.Linq.dll
-D:\Workspace\Academy\XAIL\app\XAIL.Core\obj\Debug\ResolveAssemblyReference.cache
 D:\Workspace\Academy\XAIL\app\XAIL.Core\obj\Debug\XAIL.Core.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Core\obj\Debug\XAIL.Core.pdb
+D:\Workspace\Academy\XAIL\app\XAIL.Core\bin\Debug\XAIL.ApplicationServices.dll
+D:\Workspace\Academy\XAIL\app\XAIL.Core\bin\Debug\Paging.dll
+D:\Workspace\Academy\XAIL\app\XAIL.Core\bin\Debug\XAIL.ApplicationServices.pdb
+D:\Workspace\Academy\XAIL\app\XAIL.Core\bin\Debug\Paging.pdb

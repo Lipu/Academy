@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Paging">
+      <HintPath>..\..\Paging\bin\Debug\Paging.dll</HintPath>
+    </Reference>
     <Reference Include="SharpArch">
       <HintPath>..\..\lib\SharpArch.dll</HintPath>
     </Reference>
@@ -40,6 +43,7 @@
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
@@ -53,7 +57,16 @@
     <Compile Include="..\..\CommonAssemblyInfo.cs">
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="Configuration\ISettings.cs" />
+    <Compile Include="FormsAuthenticationService.cs" />
+    <Compile Include="IAuthenticationService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\EncryptionService.cs" />
+    <Compile Include="Security\IEncryptionService.cs" />
+    <Compile Include="Security\IUserService.cs" />
+    <Compile Include="Security\UserRegistrationRequest.cs" />
+    <Compile Include="Security\UserRegistrationResult.cs" />
+    <Compile Include="Security\UserService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XAIL.Core\XAIL.Core.csproj">

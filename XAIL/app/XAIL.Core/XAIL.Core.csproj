@@ -56,6 +56,9 @@
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="System.Xml" />
+    <Reference Include="XAIL.ApplicationServices">
+      <HintPath>..\XAIL.ApplicationServices\bin\Debug\XAIL.ApplicationServices.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="News.cs" />
@@ -63,6 +66,8 @@
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\SecuritySettings.cs" />
+    <Compile Include="Security\User.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="RepositoryInterfaces\" />

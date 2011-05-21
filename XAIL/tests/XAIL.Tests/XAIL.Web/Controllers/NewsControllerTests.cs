@@ -22,7 +22,7 @@ namespace Tests.XAIL.Web.Controllers
 
             Assert.That(result.ViewData, Is.Not.Null);
             Assert.That(result.ViewData.Model as List<News>, Is.Not.Null);
-            Assert.That((result.ViewData.Model as List<News>).Count, Is.EqualTo(4));
+            Assert.That((result.ViewData.Model as List<News>).Count, Is.EqualTo(2));
         }
 
         public IRepository<News> CreateMockNewsRepository()
