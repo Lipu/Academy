@@ -61,6 +61,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NewsCategoriesController.cs" />
     <Compile Include="NewsController.cs" />
     <Compile Include="ControllerEnums.cs" />
     <Compile Include="HomeController.cs" />

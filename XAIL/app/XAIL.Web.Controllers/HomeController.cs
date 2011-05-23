@@ -20,12 +20,14 @@ namespace XAIL.Web.Controllers
         {
             var top2AcademyNews = newsRepository
                 .GetAll()
+                .Where(news => news.NewsCategory.Name == "Academy News") // I know this is a bad practice. But I cannot think of a better way
                 .OrderByDescending(n => n.CreatedAt)
                 .ToList()
                 .GetRange(0, 2);
 
             var top4SummerProgramNews = newsRepository
                 .GetAll()
+                .Where(news => news.NewsCategory.Name == "Summer Program News")
                 .OrderByDescending(n => n.CreatedAt)
                 .ToList()
                 .GetRange(0, 4);

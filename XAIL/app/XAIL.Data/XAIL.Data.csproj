@@ -67,6 +67,7 @@
     <Compile Include="..\..\CommonAssemblyInfo.cs">
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="NHibernateMaps\NewsCategoryMapping.cs" />
     <Compile Include="NHibernateMaps\NewsMapping.cs" />
     <Compile Include="NHibernateMaps\UsersMapping.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

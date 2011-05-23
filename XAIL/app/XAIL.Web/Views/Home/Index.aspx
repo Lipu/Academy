@@ -19,7 +19,7 @@
                 <div class="news-item">
                     <div class="news-img"><%= Html.Image("~/Content/Images/news-sample-img.jpg") %></div>
                     <h4><%= Html.ActionLinkForAreas<NewsController>(x => x.Show(news.Id), news.Title) %></h4>
-                    <div class="news-excerpt"><%: news.Body.Substring(0, 300) %> ...</div>
+                    <div class="news-excerpt"><%: news.Body.Length > 300 ? news.Body.Substring(0, 300) : news.Body %> ...</div>
                     <div class="read-more"><%= Html.ActionLinkForAreas<NewsController>(x => x.Show(news.Id), "Read More") %></div>
                 </div>
             <% } %>

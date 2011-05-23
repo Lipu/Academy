@@ -17,7 +17,7 @@ D:\Workspace\Academy\XAIL\app\XAIL.Core\bin\Debug\Antlr3.Runtime.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Core\bin\Debug\Remotion.Data.Linq.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Core\obj\Debug\XAIL.Core.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Core\obj\Debug\XAIL.Core.pdb
-D:\Workspace\Academy\XAIL\app\XAIL.Core\bin\Debug\XAIL.ApplicationServices.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Core\bin\Debug\Paging.dll
 D:\Workspace\Academy\XAIL\app\XAIL.Core\bin\Debug\XAIL.ApplicationServices.pdb
 D:\Workspace\Academy\XAIL\app\XAIL.Core\bin\Debug\Paging.pdb
+D:\Workspace\Academy\XAIL\app\XAIL.Core\bin\Debug\XAIL.ApplicationServices.dll

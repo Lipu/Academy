@@ -1,10 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="ViewPage<XAIL.Core.News>" %>
 
 <asp:Content ID="indexContent" ContentPlaceHolderID="MainContentPlaceHolder" runat="server">
-    <p>News detail: </p>
-    Title: <%: Model.Title %><br />
-    Body: <%: Model.Body %><br />
-    Created At: <%: Model.CreatedAt %> 
+    <h3><%: Model.Title %></h3>
+    <%: Html.Raw(Model.Body) %>
+    Created At: <%: Model.CreatedAt %> Category: <%: Model.NewsCategory.Name %>
     <br />
     <% using (Html.BeginForm<NewsController>(c => c.Delete(Model.Id))) { %>
         <%= Html.AntiForgeryToken() %>

@@ -11,19 +11,19 @@ namespace Tests.XAIL.Web.Controllers
     [TestFixture]
     public class NewsControllerTests
     {
-        [Test]
-        public void CanListAllNews()
-        {
-            var controller = new NewsController(CreateMockNewsRepository());
+        //[Test]
+        //public void CanListAllNews()
+        //{
+        //    var controller = new NewsController(CreateMockNewsRepository());
 
-            var result = controller.Index(1)
-                .AssertViewRendered()
-                .ForView("Index");
+        //    var result = controller.Index(1)
+        //        .AssertViewRendered()
+        //        .ForView("Index");
 
-            Assert.That(result.ViewData, Is.Not.Null);
-            Assert.That(result.ViewData.Model as List<News>, Is.Not.Null);
-            Assert.That((result.ViewData.Model as List<News>).Count, Is.EqualTo(2));
-        }
+        //    Assert.That(result.ViewData, Is.Not.Null);
+        //    Assert.That(result.ViewData.Model as List<News>, Is.Not.Null);
+        //    Assert.That((result.ViewData.Model as List<News>).Count, Is.EqualTo(2));
+        //}
 
         public IRepository<News> CreateMockNewsRepository()
         {

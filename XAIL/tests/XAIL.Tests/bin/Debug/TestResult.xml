@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\XAIL.Tests.dll" total="7" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-05-21" time="13:16:43">
+  <environment nunit-version="2.5.9.10348" clr-version="2.0.50727.4959" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.5.9\bin\net-2.0" machine-name="LENOVO-PC" user="lenovo" user-domain="lenovo-PC" />
+  <culture-info current-culture="zh-CN" current-uiculture="zh-CN" />
+  <test-suite type="Assembly" name="D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\XAIL.Tests.dll" executed="True" result="Success" success="True" time="2.590" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="2.564" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="XAIL" executed="True" result="Success" success="True" time="2.559" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Controllers" executed="True" result="Success" success="True" time="1.610" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="RouteRegistrarTests" executed="True" result="Success" success="True" time="1.604" asserts="0">
+                    <results>
+                      <test-case name="Tests.XAIL.Controllers.RouteRegistrarTests.CanVerifyRouteMaps" executed="True" result="Success" success="True" time="1.603" asserts="0" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Core" executed="True" result="Success" success="True" time="0.224" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="NewsTests" executed="True" result="Success" success="True" time="0.219" asserts="0">
+                    <results>
+                      <test-case name="Tests.XAIL.Core.NewsTests.CanCompareNews" executed="True" result="Success" success="True" time="0.175" asserts="1" />
+                      <test-case name="Tests.XAIL.Core.NewsTests.CanCreateNews" executed="True" result="Success" success="True" time="0.025" asserts="3" />
+                      <test-case name="Tests.XAIL.Core.NewsTests.CannotCreateNewsWithoutTitle" executed="True" result="Success" success="True" time="0.014" asserts="0" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Data" executed="True" result="Success" success="True" time="0.172" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="NHibernateMaps" executed="True" result="Success" success="True" time="0.157" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="MappingIntegrationTests" executed="True" result="Success" success="True" time="0.156" asserts="0">
+                        <categories>
+                          <category name="DB Tests" />
+                        </categories>
+                        <results>
+                          <test-case name="Tests.XAIL.Data.NHibernateMaps.MappingIntegrationTests.CanConfirmDatabaseMatchesMappings" executed="True" result="Success" success="True" time="0.083" asserts="0" />
+                          <test-case name="Tests.XAIL.Data.NHibernateMaps.MappingIntegrationTests.CanGenerateDatabaseSchema" executed="True" result="Success" success="True" time="0.071" asserts="0" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Web" executed="True" result="Success" success="True" time="0.530" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Controllers" executed="True" result="Success" success="True" time="0.527" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="NewsControllerTests" executed="True" result="Success" success="True" time="0.513" asserts="0">
+                        <results>
+                          <test-case name="Tests.XAIL.Web.Controllers.NewsControllerTests.CanListAllNews" executed="True" result="Success" success="True" time="0.513" asserts="3" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

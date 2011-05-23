@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1011]D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\XAIL.Tests.dll</TopNode>
+  <SelectedNode>[0-1011]D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\XAIL.Tests.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1011]D:\Workspace\Academy\XAIL\tests\XAIL.Tests\bin\Debug\XAIL.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1012]Tests" Expanded="true" />
+    <Node UniqueName="[0-1013]Tests.XAIL" Expanded="true" />
+    <Node UniqueName="[0-1014]Tests.XAIL.Controllers" Expanded="true" />
+    <Node UniqueName="[0-1000]Tests.XAIL.Controllers.RouteRegistrarTests" Expanded="true" />
+    <Node UniqueName="[0-1015]Tests.XAIL.Core" Expanded="true" />
+    <Node UniqueName="[0-1002]Tests.XAIL.Core.NewsTests" Expanded="true" />
+    <Node UniqueName="[0-1016]Tests.XAIL.Data" Expanded="true" />
+    <Node UniqueName="[0-1017]Tests.XAIL.Data.NHibernateMaps" Expanded="true" />
+    <Node UniqueName="[0-1006]Tests.XAIL.Data.NHibernateMaps.MappingIntegrationTests" Expanded="true" />
+    <Node UniqueName="[0-1018]Tests.XAIL.Web" Expanded="true" />
+    <Node UniqueName="[0-1019]Tests.XAIL.Web.Controllers" Expanded="true" />
+    <Node UniqueName="[0-1009]Tests.XAIL.Web.Controllers.NewsControllerTests" Expanded="true" />
+  </Nodes>
+</VisualState>

@@ -24,5 +24,7 @@ namespace XAIL.Core
         public virtual string Body { get; set; }
 
         public virtual DateTime CreatedAt { get; protected set; }
+
+        public virtual NewsCategory NewsCategory { get; set; }
     }
 }
